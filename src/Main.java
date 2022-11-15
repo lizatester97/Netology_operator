@@ -8,10 +8,10 @@ public class Main {
 
         if (payment > bonus_border){
             bonus_rubles = payment/100;
-
             System.out.println("Поздравляю! Вы пополнили баланс больше чем на 1000 рублей!");
             System.out.println("И мы начислим вам бонус в размере " + bonus_rubles + " рублей");
         }
+        
         balance = balance + payment + bonus_rubles;
         System.out.println();
         System.out.println("Средства зачислены. Текущий баланс вашего счета: " + balance+ " рублей");
